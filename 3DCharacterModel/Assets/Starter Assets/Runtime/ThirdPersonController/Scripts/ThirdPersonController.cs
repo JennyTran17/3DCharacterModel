@@ -388,5 +388,14 @@ namespace StarterAssets
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
+
+        private void OnWaveSound(AnimationEvent animationEvent)
+        {
+            var clip = animationEvent.objectReferenceParameter as AudioClip;
+            if (animationEvent.animatorClipInfo.weight > 0.5f && clip != null)
+            {
+                AudioSource.PlayClipAtPoint(clip, transform.TransformPoint(_controller.center), 1f);
+            }
+        }
     }
 }
