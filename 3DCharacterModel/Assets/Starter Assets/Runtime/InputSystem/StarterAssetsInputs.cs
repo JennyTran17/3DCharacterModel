@@ -49,6 +49,12 @@ namespace StarterAssets
     		if (value.isPressed)
         	GetComponent<Animator>().SetTrigger("Wave");
 		}
+
+		public void OnKungFu(InputValue value)
+		{
+    		if (value.isPressed)
+        	GetComponent<Animator>().SetTrigger("KungFu");
+		}
 #endif
 
 

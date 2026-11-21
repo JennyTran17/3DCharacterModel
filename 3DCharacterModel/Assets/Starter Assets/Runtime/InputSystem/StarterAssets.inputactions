@@ -55,6 +55,16 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "KungFu",
+                    "type": "Button",
+                    "id": "7d2f0a64-3b1e-4c58-9a73-5e8c21b4f6a9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -242,6 +252,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Wave",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4a91e27-8f3d-4b6a-a0d5-12e7b93c5f08",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KungFu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
