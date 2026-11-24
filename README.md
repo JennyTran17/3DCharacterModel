@@ -84,9 +84,9 @@ I animated the character in Blender by posing the armature and inserting keyfram
 
 *Figure 8: Run action in Blender. [run.mp4](images_vids_project_report/run.mp4)*
 
-[![Wave action in Blender](images_vids_project_report/blenderWavePose.png)](images_vids_project_report/animationBlender.mp4)
+[![Wave action in Blender](images_vids_project_report/blenderWavePose.png)](images_vids_project_report/waveVid.mp4)
 
-*Figure 9: Wave action in Blender. [animationBlender.mp4](images_vids_project_report/animationBlender.mp4)*
+*Figure 9: Wave action in Blender. [waveVid.mp4](images_vids_project_report/waveVid.mp4)*
 
 [![KungFu action in Blender](images_vids_project_report/blenderKungfuPose.png)](images_vids_project_report/kungFuVid.mp4)
 
