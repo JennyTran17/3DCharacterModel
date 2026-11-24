@@ -43,6 +43,18 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnWave(InputValue value)
+		{
+    		if (value.isPressed)
+        	GetComponent<Animator>().SetTrigger("Wave");
+		}
+
+		public void OnKungFu(InputValue value)
+		{
+    		if (value.isPressed)
+        	GetComponent<Animator>().SetTrigger("KungFu");
+		}
 #endif
 
 
